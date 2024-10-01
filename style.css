@@ -70,3 +70,56 @@ h1 {
 #searchBtn:hover {
     background-color: #a7fa6f;
 }
+
+#content img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+    border-radius: 12px;
+    margin-bottom: 25px;
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.4);
+}
+
+.movie-details {
+    text-align: left;
+}
+
+.movie-details h2 {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 15px;
+    color: #ffffff;
+    font-weight: 600;
+}
+
+.movie-details p {
+    margin-bottom: 12px;
+    font-size: 18px;
+    color: #b4b4b4;
+    line-height: 1.5;
+}
+
+.movie-details strong {
+    color: #37a3e2;
+}
+
+.movie-details p span {
+    font-weight: 500;
+}
+
+@media (max-width: 768px) {
+    #searchbar {
+        width: 65%;
+        font-size: 16px;
+    }
+
+    #searchBtn {
+        font-size: 16px;
+        padding: 10px 20px;
+    }
+
+    .movie-details h2 {
+        font-size: 24px;
+    }
+}
